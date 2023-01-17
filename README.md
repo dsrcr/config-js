@@ -1,5 +1,26 @@
 # Project setup 🚀
 
+<p align="center">
+  <a href="https://github.com/dsrcr/config-js/stargazers">
+    <img
+      alt="Stargazers"
+      src="https://img.shields.io/github/stars/dsrcr/config-js?style=for-the-badge&logo=starship&color=c678dd&logoColor=d9e0ee&labelColor=282a36"
+    />
+  </a>
+  <a href="https://github.com/dsrcr/config-js/issues">
+    <img
+      alt="Issues"
+      src="https://img.shields.io/github/issues/dsrcr/config-js?style=for-the-badge&logo=gitbook&color=f0c062&logoColor=d9e0ee&labelColor=282a36"
+    />
+  </a>
+  <a href="https://github.com/dsrcr/config-js/contributors">
+    <img
+      alt="Contributors"
+      src="https://img.shields.io/github/contributors/dsrcr/config-js?style=for-the-badge&logo=opensourceinitiative&color=abcf84&logoColor=d9e0ee&labelColor=282a36"
+    />
+  </a>
+</p>
+
 ### Initial
 > Pull required deps
 ```bash
@@ -79,3 +100,11 @@ You can install some extensions to integrate this process in your IDE. I use Neo
 ### Using git hooks
 
 > I'm not using it yet but it seems like a nice feature 
+
+Lot of people on the internet recommended using [Husky](https://typicode.github.io/husky/#/) so I've decided to mention it. 
+The following commands are copy-pasted from above link. I prefer the automatic setup.
+```bash
+pnpm dlx husky-init && pnpm install
+```
+
+
