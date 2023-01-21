@@ -22,16 +22,12 @@
 </p>
 
 ### Initial
-> Pull required deps
-```bash
-pnpm add @babel/core@">=7.0.0-0 <8.0.0" @babel/plugin-syntax-flow@^7.14.5 @babel/plugin-transform-react-jsx@^7.14.9 @testing-library/dom@>=7.21.4 @typescript-eslint/eslint-plugin@^5.13.0 @typescript-eslint/parser@">=5.0.0 <6.0.0" typescript@">=3.2.1 <4.0.0 || >=4.0.0 <5.0.0"
+I'm using Vite + pnpm to build my React projects.
+Run this to initialize a project
+```shell
+pnpm create vite
 ```
-> Pull dev deps
-
-```bash
-pnpm i --save-dev prettier eslint-config-prettier eslint-plugin-prettier eslint-config-airbnb-typescript eslint-plugin-import@">=2.25.3 <3.0.0" eslint@">=7.32.0 <8.0.0 || >=8.2.0 <9.0.0"
-```
-
+Next, cd into the new project, install node_mods and check if everything works.
 ### Eslint
 > Run this and follow the instructions to generate .eslint.json
 ```bash
