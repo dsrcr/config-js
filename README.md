@@ -29,16 +29,15 @@ pnpm create vite
 ```
 Next, cd into the new project, install node_mods and check if everything works.
 ### Eslint
-> Run this and follow the instructions to generate .eslint.json
+Run this and follow the instructions to generate .eslint.json
 ```bash
 pnpm create @eslint/config
 ```
-> ***[ Important ]*** Make sure eslint works
+***[ Important ]*** Make sure eslint works
 ```bash
 eslint .
 ```
-
-> Replace .eslint.json with this
+Replace .eslint.json with this
 ```json
 {
     "env": {
@@ -73,7 +72,7 @@ eslint .
 ```
 
 ### Prettier
-> Create .prettierrc
+Create .prettierrc
 ```json
 {
     "tabWidth": 4,
@@ -139,18 +138,14 @@ eslint .
 ```
 
 ### Integrating with IDE
-
-> At this point you have everything you need to start linting&formatting in CLI.
+At this point you have everything you need to start linting&formatting in CLI.
 You can install some extensions to integrate this process in your IDE. I use Neovim for building React apps and I've set up autoformatting on-save in my [nvim](https://github.com/dsrcr/nvim) repository. 
 
 ### Using git hooks
-
-> I'm not using it yet but it seems like a nice feature 
+I'm not using it yet but it seems like a nice feature 
 
 Lot of people on the internet recommended using [Husky](https://typicode.github.io/husky/#/) so I've decided to mention it. 
 The following commands are copy-pasted from above link. I prefer the automatic setup.
 ```bash
 pnpm dlx husky-init && pnpm install
 ```
-
-
